@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0e5bf7mihyun"]
+
+[ext_resource type="Script" path="res://scripts/components/LockOnNode.gd" id="1_ndsw8"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_dwyh5"]
+
+[node name="LockOnNode" type="Node3D"]
+script = ExtResource("1_ndsw8")
+
+[node name="collider" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_dwyh5")

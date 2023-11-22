@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://btdcrh7nprv6s"]
+
+[ext_resource type="Script" path="res://camera.gd" id="1_1k473"]
+
+[node name="CameraController" type="SpringArm3D"]
+spring_length = 2.5
+margin = 0.1
+script = ExtResource("1_1k473")
+
+[node name="NormalCam" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.98884, 0.148983, 0, -0.148983, 0.98884, 0.356943, 1.19951, 2.1416)
